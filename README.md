@@ -26,8 +26,8 @@ LancePass uses command-line arguments (flags) for fast, non-interactive executio
 To generate a highly secure 24-character password, including numbers, uppercase letters, and special symbols, simply run:
 
 ```bash
-./lancepass.sh -u 24 -s -m
-
+./lancepass.sh -u 24 -s -m 
+```
 ## Installation
 
 Clone this repository to your local machine and grant execution permissions to the script:
