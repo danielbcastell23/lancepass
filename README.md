@@ -20,6 +20,8 @@ LancePass uses command-line arguments (flags) for fast, non-interactive executio
 | `-s` | Includes special characters (`!@#$%^&*`). | `-s` |
 | `-m` | Includes uppercase letters and numbers. | `-m` |
 | `-h` | Shows the help panel and exits the program. | `-h` |
+<img width="499" height="251" alt="Captura de pantalla 2026-07-04 213122" src="https://github.com/user-attachments/assets/53376232-9aa8-449f-abef-437e71a9b078" />
+
 
 ### Practical Example
 
@@ -27,6 +29,8 @@ To generate a highly secure 24-character password, including numbers, uppercase 
 
 ```bash
 ./lancepass.sh -u 24 -s -m 
+<img width="658" height="172" alt="Captura de pantalla 2026-07-04 213029" src="https://github.com/user-attachments/assets/194737f4-5767-4e0c-8911-3264aa935051" />
+
 ```
 ## Installation
 
