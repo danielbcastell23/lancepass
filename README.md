@@ -17,3 +17,23 @@ Clone this repository to your local machine and grant execution permissions to t
 git clone https://github.com/danielbcastell23/lancepass.git
 cd lancepass
 chmod +x lancepass.sh
+
+## Usage
+
+LancePass uses command-line arguments (flags) for fast, non-interactive execution.
+
+### Available Flags:
+
+| Flag | Description | Example |
+| :---: | :--- | :--- |
+| `-u` | Specifies the desired password length (must be an integer). | `-u 15` |
+| `-s` | Includes special characters (`!@#$%^&*`). | `-s` |
+| `-m` | Includes uppercase letters and numbers. | `-m` |
+| `-h` | Shows the help panel and exits the program. | `-h` |
+
+### Practical Example
+
+To generate a highly secure 24-character password, including numbers, uppercase letters, and special symbols, simply run:
+
+```bash
+./lancepass.sh -u 24 -s -m
