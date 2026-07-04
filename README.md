@@ -8,16 +8,6 @@ LancePass is a fast, robust, and highly customizable password generator written 
 * **Granular security:** Modular options to include (or exclude) special characters, numbers, and uppercase letters.
 * **Error validation:** Input sanitization using Regular Expressions (Regex) to prevent crashes if the user provides invalid data.
 * **Visual interface:** Stylized ASCII art banner with ANSI color codes.
-
-## Installation
-
-Clone this repository to your local machine and grant execution permissions to the script:
-
-```bash
-git clone https://github.com/danielbcastell23/lancepass.git
-cd lancepass
-chmod +x lancepass.sh
-
 ## Usage
 
 LancePass uses command-line arguments (flags) for fast, non-interactive execution.
@@ -37,3 +27,12 @@ To generate a highly secure 24-character password, including numbers, uppercase 
 
 ```bash
 ./lancepass.sh -u 24 -s -m
+
+## Installation
+
+Clone this repository to your local machine and grant execution permissions to the script:
+
+```bash
+git clone https://github.com/danielbcastell23/lancepass.git
+cd lancepass
+chmod +x lancepass.sh
