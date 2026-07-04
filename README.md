@@ -14,6 +14,6 @@ LancePass is a fast, robust, and highly customizable password generator written 
 Clone this repository to your local machine and grant execution permissions to the script:
 
 ```bash
-git clone [https://github.com/danielbcastell23/lancepass.git](https://github.com/danielbcastell23/lancepass.git)
+git clone https://github.com/danielbcastell23/lancepass.git
 cd lancepass
 chmod +x lancepass.sh
