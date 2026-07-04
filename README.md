@@ -29,9 +29,8 @@ To generate a highly secure 24-character password, including numbers, uppercase 
 
 ```bash
 ./lancepass.sh -u 24 -s -m 
-<img width="658" height="172" alt="Captura de pantalla 2026-07-04 213029" src="https://github.com/user-attachments/assets/194737f4-5767-4e0c-8911-3264aa935051" />
-
 ```
+<img width="658" height="172" alt="Captura de pantalla 2026-07-04 213029" src="https://github.com/user-attachments/assets/194737f4-5767-4e0c-8911-3264aa935051" />
 ## Installation
 
 Clone this repository to your local machine and grant execution permissions to the script:
